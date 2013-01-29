@@ -128,7 +128,7 @@ RemoteGeoJsonSource.prototype = {
 
       console.log("Projected in " + (Date.now() - start) + "ms"); 
     } else {
-      console.log("Projection not necessary")
+      console.log("Projection not necessary");
         this._projectedData[mapProjection] = this._data;
     }
     
@@ -245,7 +245,7 @@ RemoteGeoJsonSource.prototype = {
     
     return shapes;
   }
-}
+};
 
 module.exports = RemoteGeoJsonSource;
 
